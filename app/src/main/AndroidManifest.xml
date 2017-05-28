@@ -12,7 +12,6 @@
         android:roundIcon="@drawable/lop"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
         <activity
             android:name=".Logo"
             android:label="@string/app_name"
@@ -24,15 +23,11 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
-            android:label="@string/title_activity_main"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
             android:name=".SettingsActivity"
             android:label="@string/title_activity_settings" />
         <activity
-            android:name=".MealActivity"
-            android:label="@string/meal"  />
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main" />
     </application>
 
 </manifest>
