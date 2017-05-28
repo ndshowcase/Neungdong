@@ -47,7 +47,6 @@ public class MainActivity extends AppCompatActivity {
                     return true;
                 case R.id.navigation_dashboard:
                     return true;
-
                 case R.id.navigation_notifications:
                     return true;
             }
